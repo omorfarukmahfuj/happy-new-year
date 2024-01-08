@@ -6,7 +6,7 @@
   padding: 0;
 }
 
-/* Header Start */
+/* Header Styles */
 
 header {
   display: flex;
@@ -14,6 +14,8 @@ header {
   align-items: center;
   margin: 45px 130px 110px;
 }
+
+/* Hero Banner Styles */
 
 .hero-banner {
   width: 1230px;
@@ -28,7 +30,7 @@ header {
   align-items: center;
 }
 
-.hero-banner>h4 {
+.hero-banner h4 {
   color: #FFF;
   text-align: center;
   font-family: Merriweather;
@@ -36,11 +38,55 @@ header {
   margin-bottom: 15px;
 }
 
-.hero-banner>h1 {
+.hero-banner h1 {
   color: #FFF;
   text-align: center;
   font-family: Merriweather;
   font-size: 67px;
   font-weight: 900;
   line-height: 88px;
+}
+
+/* Main Styles */
+
+/* Discount Section Styles */
+
+.discount-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.discount-section h2 {
+  color: #ECA646;
+  text-align: center;
+  font-family: Inter;
+  font-size: 82px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+
+.discount-section p {
+  color: #ECA646;
+  text-align: center;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.discount-section h3 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+
+.discount-section img {
+  width: 750px;
+  height: 460px;
+  margin-bottom: 110px;
 }
