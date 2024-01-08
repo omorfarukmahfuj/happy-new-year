@@ -186,6 +186,7 @@ main {
 
 .img-container:hover {
   border: 5px solid #ECA646;
+<<<<<<< HEAD
 }
 
 /* Newsletter Styles */
@@ -234,4 +235,6 @@ main {
   background-color: #ECA646;
   border: 0;
   padding: 22px 28px;
+=======
+>>>>>>> 2caba38ea43107b325159102934af869ff2360cb
 }
