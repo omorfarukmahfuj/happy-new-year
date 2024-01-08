@@ -241,3 +241,50 @@ main {
   border: 0;
   padding: 24px 28px;
 }
+
+/* Footer Styles */
+
+footer {
+  background-color: #CF8D3D;
+  padding: 130px 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-info {
+  display: flex;
+  gap: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info p {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.footer-contacts {
+  display: flex;
+  gap: 15px;
+  justify-content: start;
+  align-items: center;
+}
+
+footer hr {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  margin: 45px 0;
+}
+
+.social-links {
+  margin: 0 auto;
+}
+
+.social-links img {
+  width: 60px;
+  margin-left: 22px;
+}
