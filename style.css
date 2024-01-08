@@ -186,7 +186,6 @@ main {
 
 .img-container:hover {
   border: 5px solid #ECA646;
-<<<<<<< HEAD
 }
 
 /* Newsletter Styles */
@@ -222,19 +221,23 @@ main {
   font-size: 16px;
 }
 
+.newsletter-section input[type="email"]:focus {
+  outline: 2px solid #ECA646;
+  border: 0px;
+}
+
+
 .newsletter-section input[type="submit"] {
   position: relative;
   left: -5px;
   color: #FFF;
   text-align: center;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   text-transform: capitalize;
   border-radius: 0px 46.75px 46.75px 0px;
   background-color: #ECA646;
   border: 0;
-  padding: 22px 28px;
-=======
->>>>>>> 2caba38ea43107b325159102934af869ff2360cb
+  padding: 24px 28px;
 }
