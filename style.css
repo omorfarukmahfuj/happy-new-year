@@ -7,6 +7,31 @@
 }
 
 /* Common Styles */
+.section-sub-title {
+  color: #ECA646;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.section-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 30px;
+  width: 50%;
+  margin-bottom: 45px;
+}
+
 .btn-primary {
   color: #FFF;
   text-align: center;
@@ -63,7 +88,14 @@ header {
 
 /* Main Styles */
 
-/* Discount Section Styles */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Discount Styles */
 
 .discount-section {
   display: flex;
@@ -81,27 +113,10 @@ header {
   margin-bottom: 45px;
 }
 
-.discount-section p {
-  color: #ECA646;
-  text-align: center;
-  font-family: Inter;
-  font-size: 22px;
-  font-weight: 500;
-  margin-bottom: 15px;
-}
-
-.discount-section h3 {
-  color: #070211;
-  text-align: center;
-  font-family: Inter;
-  font-size: 45px;
-  font-weight: 700;
-  margin-bottom: 45px;
-}
-
 .discount-section img {
   width: 750px;
   height: 460px;
+  margin-top: 25px;
   margin-bottom: 110px;
 }
 
@@ -140,4 +155,83 @@ header {
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 20px;
+}
+
+/* Portfolio Styles */
+
+.portfolio-section {
+  margin-bottom: 110px;
+}
+
+.column {
+  display: flex;
+  gap: 22px;
+  margin-bottom: 22px;
+}
+
+.img-container {
+  height: 420px;
+  overflow: hidden;
+  border-radius: 15px;
+  border: 5px solid #eca74600;
+}
+
+.img-container img {
+  transition: transform .5s ease;
+}
+
+.img-container img:hover {
+  transform: scale(1.5);
+}
+
+.img-container:hover {
+  border: 5px solid #ECA646;
+}
+
+/* Newsletter Styles */
+.newsletter-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: rgba(236, 166, 70, 0.10);
+  padding: 75px 200px;
+  margin: 0 130px 110px;
+}
+
+.newsletter-section img {
+  margin-bottom: 40px;
+}
+
+.newsletter-section .section-description {
+  text-align: center;
+  width: 60%;
+}
+
+
+.newsletter-section input[type="email"] {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 24px 28px;
+  width: 400px;
+  background-color: #FFF;
+  border: 0;
+  font-family: Inter;
+  font-size: 16px;
+}
+
+.newsletter-section input[type="submit"] {
+  position: relative;
+  left: -5px;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 0px 46.75px 46.75px 0px;
+  background-color: #ECA646;
+  border: 0;
+  padding: 22px 28px;
 }
